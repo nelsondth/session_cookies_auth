@@ -1,1 +1,7 @@
-Login
+Login form
+= form_with(url: create_session_path, local: true) do |form|
+  .field
+    = form.label :name
+    = form.text_field :name
+  .actions
+    = form.submit "Login"
