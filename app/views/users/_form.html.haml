@@ -18,6 +18,6 @@
     = form.date_select :birthdate
   .field
     = form.label :gender
-    = form.select :gender, User.genders.keys.map {|gender| [gender.titleize,gender]}
+    = form.select :gender, User.genders.keys.map {|gender| [gender.titleize, gender]}
   .actions
     = form.submit
