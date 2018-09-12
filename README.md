@@ -24,14 +24,3 @@ HTTP authentications
 * https://guides.rubyonrails.org/action_controller_overview.html#http-authentications
 
 * Basic y digest authentication, pros y contras
-
-Devise
---------------------------
-
-* https://github.com/plataformatec/devise
-
-* intro
-
-* instalación
-
-* uso
