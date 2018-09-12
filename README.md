@@ -1,24 +1,26 @@
-# README
+# Clase sobre el manejo de sesiones, cookies y autenticacion basica en rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sessions
+--------------------------
 
-Things you may want to cover:
+* https://guides.rubyonrails.org/action_controller_overview.html#session
 
-* Ruby version
+* Mecanismos de almacenaje (cookie, active record, cache), ventajas y desventajas de cada uno.
 
-* System dependencies
+* Leer, escribir y limpiar la sesión
 
-* Configuration
+* flash, tipos de flash (now, keep)
 
-* Database creation
+Cookies
+--------------------------
 
-* Database initialization
+* https://guides.rubyonrails.org/action_controller_overview.html#cookies
 
-* How to run the test suite
+* Leer, escribir y limpiar cookies
 
-* Services (job queues, cache servers, search engines, etc.)
+HTTP authentications
+--------------------------
 
-* Deployment instructions
+* https://guides.rubyonrails.org/action_controller_overview.html#http-authentications
 
-* ...
+* Basic y digest authentication, pros y contras
