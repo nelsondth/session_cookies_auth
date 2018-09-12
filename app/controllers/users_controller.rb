@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :send_message_now, :update, :destroy]
 
   # GET /users
   # GET /users.json
@@ -24,6 +24,11 @@ class UsersController < ApplicationController
     # session[:name] = nil ó session.clear
     
     @user = User.new
+  end
+
+  def send_message_now
+    flash[:notice] = 'Usted ha clickeado el boton'
+    render action: "show"
   end
 
   # GET /users/1/edit

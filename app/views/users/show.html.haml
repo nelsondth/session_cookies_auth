@@ -1,4 +1,3 @@
-%p#notice= notice
 %p
   %strong Name:
   = @user.name
@@ -12,5 +11,5 @@
   %strong Gender:
   = @user.gender
 = link_to 'Edit', edit_user_path(@user)
-|
+= link_to 'click me!', click_me_path(@user)
 = link_to 'Back', users_path

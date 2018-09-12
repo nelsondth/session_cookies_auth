@@ -5,6 +5,7 @@ class BooksController < ApplicationController
   # GET /books
   # GET /books.json
   def index
+    flash.keep
     @books = Book.all
   end
 
