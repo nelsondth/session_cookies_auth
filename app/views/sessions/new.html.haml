@@ -2,6 +2,7 @@ Login form
 = form_with(url: create_session_path, local: true) do |form|
   .field
     = form.label :name
-    = form.text_field :name
+    = form.text_field :name, value: cookies[:user_name]
+    = form.check_box :remember_me
   .actions
     = form.submit "Login"

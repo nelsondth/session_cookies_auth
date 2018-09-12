@@ -1,5 +1,8 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :send_message_now, :update, :destroy]
+  # http_basic_authenticate_with name: "nelson", password: "123"
+  before_action :authenticate
+ 
 
   # GET /users
   # GET /users.json
